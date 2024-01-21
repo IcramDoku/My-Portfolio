@@ -2,9 +2,9 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header>
+    <header id="header-section">
       <h1>Icram Doku</h1>
-      <p>Software Engineer</p>
+      <p>Software Engineer / Full Stack Engineer</p>
     </header>
   );
 };
