@@ -48,6 +48,7 @@ const skills = ['Python', 'Java', 'C++', 'Dart', 'JavaScript', 'HTML', 'CSS', 'T
 
 const contactDetails = {
   email: 'icramdoku@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/icramdoku/'
 };
 
 const githubLink = 'https://github.com/IcramDoku';
