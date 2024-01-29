@@ -9,7 +9,7 @@ const projects = [
   {
     id: 2,
     title: 'Task Meister',
-    description: 'A collaborative To-Do web app with Due dates',
+    description: 'A collaborative tasks web app with Due dates',
     link: 'https://icramdoku.github.io/cmsc447project/',
     image: 'TaskMeister.png'
   },
@@ -44,7 +44,7 @@ const projects = [
 
 ];
 
-const skills = ['Python', 'Java', 'C++', 'Dart', 'JavaScript', 'HTML', 'CSS', 'Tailwind', 'ReactJS', 'NodeJS', 'Flutter', 'MongoDB', 'MySQL', '...'];
+const skills = ['Python', 'Java', 'C++', 'Dart', 'JavaScript', 'HTML', 'Typescript', 'CSS', 'Tailwind', 'React', 'Node', 'Flutter', 'MongoDB', 'MySQL', 'CI/CD', '...'];
 
 const contactDetails = {
   email: 'icramdoku@gmail.com',
