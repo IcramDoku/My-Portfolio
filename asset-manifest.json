@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.41b87f0c.css",
-    "main.js": "/My-Portfolio/static/js/main.cb7a466b.js",
+    "main.css": "/My-Portfolio/static/css/main.97b66a66.css",
+    "main.js": "/My-Portfolio/static/js/main.b12a2cb1.js",
     "static/js/787.2dcca737.chunk.js": "/My-Portfolio/static/js/787.2dcca737.chunk.js",
     "static/media/AmharicAI.png": "/My-Portfolio/static/media/AmharicAI.90dfda9995b6ae01f0ba.png",
     "static/media/CourseRegistration.png": "/My-Portfolio/static/media/CourseRegistration.889f7ec433950e8469e8.png",
@@ -11,12 +11,12 @@
     "static/media/WeightTracker.png": "/My-Portfolio/static/media/WeightTracker.59294ac10088a9e6c23d.png",
     "static/media/LinkedIn-logo.png": "/My-Portfolio/static/media/LinkedIn-logo.df3f373c358bcfdd92bb.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.41b87f0c.css.map": "/My-Portfolio/static/css/main.41b87f0c.css.map",
-    "main.cb7a466b.js.map": "/My-Portfolio/static/js/main.cb7a466b.js.map",
+    "main.97b66a66.css.map": "/My-Portfolio/static/css/main.97b66a66.css.map",
+    "main.b12a2cb1.js.map": "/My-Portfolio/static/js/main.b12a2cb1.js.map",
     "787.2dcca737.chunk.js.map": "/My-Portfolio/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41b87f0c.css",
-    "static/js/main.cb7a466b.js"
+    "static/css/main.97b66a66.css",
+    "static/js/main.b12a2cb1.js"
   ]
 }
