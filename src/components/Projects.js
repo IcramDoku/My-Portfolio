@@ -42,15 +42,16 @@ const Projects = () => {
                       background: 'rgba(0, 0, 0, 0)',
                     }}
                   >
-                    <p style={{ background: 'black', color: 'lightblue', fontSize: '16px', transition: 'background 0.3s', borderRadius: '4px', padding: '8px', cursor: 'pointer', border: '1px solid darkblue' }}
-                    onMouseOver={(e) => e.target.style.background = 'white'}
-                    onMouseOut={(e) => e.target.style.background = 'black'}
-                    >
-                      Go to Website {'>'}
-                    </p>
+                    
                   </div>
                 </div>
               </a>
+              <button style={{ textAlign: 'left', background: 'black', color: 'lightblue', fontSize: '16px', transition: 'background 0.3s', borderRadius: '4px', padding: '8px', cursor: 'pointer', border: '1px solid darkblue' }}
+              onMouseOver={(e) => e.target.style.background = 'white'}
+              onMouseOut={(e) => e.target.style.background = 'black'}
+              >
+                Go to Website {'>'}
+              </button>
             </div>
           </article>
         ))}
