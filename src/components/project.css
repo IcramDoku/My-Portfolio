@@ -1,0 +1,18 @@
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2.5rem;
+}
+
+.project-article {
+    background: #5591ec;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.project-article:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}

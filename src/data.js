@@ -44,7 +44,7 @@ const projects = [
 
 ];
 
-const skills = ['Python', 'Java', 'C++', 'Dart', 'JavaScript', 'HTML', 'Typescript', 'CSS', 'Tailwind', 'React', 'Node', 'Flutter', 'MongoDB', 'MySQL', 'CI/CD', '...'];
+const skills = ['Python', 'C++', 'Dart', 'Java', 'JavaScript', 'Typescript', 'CSS', 'HTML', 'Tailwind', 'React', 'Node', 'Flutter', 'MongoDB', 'MySQL', 'CI/CD', '...'];
 
 const contactDetails = {
   email: 'icramdoku@gmail.com',
