@@ -51,7 +51,7 @@ const Projects = () => {
               onMouseOver={(e) => e.target.style.background = 'white'}
               onMouseOut={(e) => e.target.style.background = 'black'}
               >
-                Go to Website {'>'}
+                Go to Website
               </button>
               </a>
             </div>
