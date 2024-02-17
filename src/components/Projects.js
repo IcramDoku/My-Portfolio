@@ -46,12 +46,14 @@ const Projects = () => {
                   </div>
                 </div>
               </a>
+              <a className="App-link" href={project.link} target="_blank" rel="noopener noreferrer">
               <button style={{ textAlign: 'left', background: 'black', color: 'lightblue', fontSize: '16px', transition: 'background 0.3s', borderRadius: '4px', padding: '8px', cursor: 'pointer', border: '1px solid darkblue' }}
               onMouseOver={(e) => e.target.style.background = 'white'}
               onMouseOut={(e) => e.target.style.background = 'black'}
               >
                 Go to Website {'>'}
               </button>
+              </a>
             </div>
           </article>
         ))}
