@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.4e207678.css",
-    "main.js": "/My-Portfolio/static/js/main.002ca6c4.js",
+    "main.css": "/My-Portfolio/static/css/main.41b87f0c.css",
+    "main.js": "/My-Portfolio/static/js/main.3e15f2de.js",
     "static/js/787.2dcca737.chunk.js": "/My-Portfolio/static/js/787.2dcca737.chunk.js",
     "static/media/AmharicAI.png": "/My-Portfolio/static/media/AmharicAI.90dfda9995b6ae01f0ba.png",
     "static/media/CourseRegistration.png": "/My-Portfolio/static/media/CourseRegistration.889f7ec433950e8469e8.png",
@@ -9,14 +9,15 @@
     "static/media/TaskMeister.png": "/My-Portfolio/static/media/TaskMeister.8250f45415f26e2bff0b.png",
     "static/media/SimplyCS.png": "/My-Portfolio/static/media/SimplyCS.59047881a8d47b80f4d8.png",
     "static/media/WeightTracker.png": "/My-Portfolio/static/media/WeightTracker.59294ac10088a9e6c23d.png",
+    "static/media/Icram_Doku.jpg": "/My-Portfolio/static/media/Icram_Doku.d75cee462cab078b1cfe.jpg",
     "static/media/LinkedIn-logo.png": "/My-Portfolio/static/media/LinkedIn-logo.df3f373c358bcfdd92bb.png",
     "index.html": "/My-Portfolio/index.html",
-    "main.4e207678.css.map": "/My-Portfolio/static/css/main.4e207678.css.map",
-    "main.002ca6c4.js.map": "/My-Portfolio/static/js/main.002ca6c4.js.map",
+    "main.41b87f0c.css.map": "/My-Portfolio/static/css/main.41b87f0c.css.map",
+    "main.3e15f2de.js.map": "/My-Portfolio/static/js/main.3e15f2de.js.map",
     "787.2dcca737.chunk.js.map": "/My-Portfolio/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e207678.css",
-    "static/js/main.002ca6c4.js"
+    "static/css/main.41b87f0c.css",
+    "static/js/main.3e15f2de.js"
   ]
 }
