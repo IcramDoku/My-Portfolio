@@ -3,20 +3,16 @@ import { githubLink } from '../data';
 
 const SourceCode = () => {
     return (
-    <section id="source-code-section">
-      <h2>Source Code</h2>
-      <p>
-        For all my projects on GitHub:
+    <section id="source-code-section" style={styles.section}>
+      <h2 style={styles.heading}>Source Code</h2>
+      <p style={styles.paragraph}>
+        Explore all my projects on GitHub:
         <br />
-        <a href={githubLink} target="_blank" rel="noopener noreferrer">
+        <a href={githubLink} target="_blank" rel="noopener noreferrer" style={styles.link}>
           <img
             src={require(`../Portfolio/GitHub-logo.png`)}
-            alt="logo"
-            style={{
-              width: '5%',
-              height: '5%',
-              objectFit: 'cover',
-            }}
+            alt="GitHub Logo"
+            style={styles.logo}
           />
           <br />
           {githubLink}
@@ -27,3 +23,30 @@ const SourceCode = () => {
 };
 
 export default SourceCode;
+
+const styles = {
+  section: {
+    textAlign: 'center',
+    padding: '40px 0',
+    background: 'linear-gradient(to bottom, #90d5ec, #5e97b0)',
+  },
+  heading: {
+    fontSize: '2.5rem',
+    fontWeight: 'bold',
+    marginBottom: '20px',
+  },
+  paragraph: {
+    fontSize: '1.2rem',
+    fontWeight: 'bold',
+  },
+  link: {
+    textDecoration: 'none',
+    color: '#007bff',
+    transition: 'color 0.3s',
+  },
+  logo: {
+    width: '50px',
+    height: '50px',
+    marginBottom: '10px',
+  },
+};
