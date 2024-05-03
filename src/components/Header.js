@@ -10,7 +10,7 @@ const Header = () => {
           alt="logo"
           style={styles.logo}
         />
-        <p style={styles.role}>Full Stack Engineer</p>
+        <p style={styles.role}>Full Stack Developer</p>
       </div>
     </header>
   );
