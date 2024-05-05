@@ -53,13 +53,15 @@ const skills = [
   { name: 'Typescript', icon: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg' },
   { name: 'CSS', icon: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg' },
   { name: 'HTML', icon: 'https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg' },
-  { name: 'Tailwind', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/320px-Tailwind_CSS_Logo.svg.png' },
-  { name: 'React', icon: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg' },
+  { name: 'Tailwind', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeKPw4CK4jcH7udsFHZdiB3iIOuI3fUCsxUZosXy4Y1yd25NA-dzCBPrSDIhg1BwObl3w&usqp=CAU' },
+  { name: 'React', icon: 'https://cdn.worldvectorlogo.com/logos/react-1.svg' },
   { name: 'Node', icon: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg' },
   { name: 'Flutter', icon: 'https://static-00.iconduck.com/assets.00/flutter-icon-1651x2048-ojswpayr.png' },
-  { name: 'MongoDB', icon: 'https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg' },
-  { name: 'MySQL', icon: 'https://cdn.iconscout.com/icon/free/png-256/free-mysql-21-1174941.png' },
+  { name: 'MongoDB', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNyOe4xJhJFvDUbm1OSFnnEc4plFTvdYrBmOfNf-YUNA&s' },
+  { name: 'MySQL', icon: 'https://dh.library.virginia.edu/system/files/styles/large/private/MySQL.PNG?itok=y4tI90y8' },
   { name: 'CI/CD', icon: 'https://media.licdn.com/dms/image/D4D12AQEtvcUNf2bUKw/article-cover_image-shrink_600_2000/0/1655882257308?e=2147483647&v=beta&t=cWAmA9sFyS7IFrHJzFrDxigqFzM2MYLLs2XL0dNDL9U' },
+  {name: 'ML', icon: 'https://img.freepik.com/premium-vector/machine-learning-signs-round-design-template-thin-line-icon-concept-banner-ad-blue-vector-illustration_269504-3518.jpg'},
+  { name: 'AI', icon: 'https://t4.ftcdn.net/jpg/03/97/02/07/360_F_397020794_LXE0WLqWxcbhIf2UwXfRtLJwjw8aX5Wj.jpg'},
   { name: '...', icon: 'https://cdn-icons-png.flaticon.com/512/152/152529.png'}
 ];
 
