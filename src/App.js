@@ -47,19 +47,37 @@ function App() {
   return (
     <div>
       <aside style={styles.sidebar}>
-        <a href="#header-section" style={styles.link}>
+        <a
+          href="#header-section"
+          style={styles.link}
+          onMouseEnter={(e) => (e.currentTarget.style.color = 'blue')}
+          onMouseLeave={(e) => (e.currentTarget.style.color = '#fff')}
+        >
           Header
         </a>
-        <a href="#projects-section" style={styles.link}>
+        <a 
+          href="#projects-section" 
+          style={styles.link}
+          onMouseEnter={(e) => (e.currentTarget.style.color = 'blue')}
+          onMouseLeave={(e) => (e.currentTarget.style.color = '#fff')}>
           Projects
         </a>
-        <a href="#source-code-section" style={styles.link}>
+        <a href="#source-code-section" 
+          style={styles.link}
+          onMouseEnter={(e) => (e.currentTarget.style.color = 'blue')}
+          onMouseLeave={(e) => (e.currentTarget.style.color = '#fff')}>
           Source Code
         </a>
-        <a href="#skills-section" style={styles.link}>
+        <a href="#skills-section" 
+          style={styles.link}
+          onMouseEnter={(e) => (e.currentTarget.style.color = 'blue')}
+          onMouseLeave={(e) => (e.currentTarget.style.color = '#fff')}>
           Skills
         </a>
-        <a href="#contact-section" style={styles.link}>
+        <a href="#contact-section" 
+          style={styles.link}
+          onMouseEnter={(e) => (e.currentTarget.style.color = 'blue')}
+          onMouseLeave={(e) => (e.currentTarget.style.color = '#fff')}>
           Contact
         </a>
       </aside>
