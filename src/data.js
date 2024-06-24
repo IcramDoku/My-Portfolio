@@ -60,7 +60,7 @@ const skills = [
   { name: 'MongoDB', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNyOe4xJhJFvDUbm1OSFnnEc4plFTvdYrBmOfNf-YUNA&s' },
   { name: 'MySQL', icon: 'https://dh.library.virginia.edu/system/files/styles/large/private/MySQL.PNG?itok=y4tI90y8' },
   { name: 'CI/CD', icon: 'https://media.licdn.com/dms/image/D4D12AQEtvcUNf2bUKw/article-cover_image-shrink_600_2000/0/1655882257308?e=2147483647&v=beta&t=cWAmA9sFyS7IFrHJzFrDxigqFzM2MYLLs2XL0dNDL9U' },
-  {name: 'ML', icon: 'https://img.freepik.com/premium-vector/machine-learning-signs-round-design-template-thin-line-icon-concept-banner-ad-blue-vector-illustration_269504-3518.jpg'},
+  { name: 'ML', icon: 'https://img.freepik.com/premium-vector/machine-learning-signs-round-design-template-thin-line-icon-concept-banner-ad-blue-vector-illustration_269504-3518.jpg'},
   { name: 'AI', icon: 'https://t4.ftcdn.net/jpg/03/97/02/07/360_F_397020794_LXE0WLqWxcbhIf2UwXfRtLJwjw8aX5Wj.jpg'},
   { name: '...', icon: 'https://cdn-icons-png.flaticon.com/512/152/152529.png'}
 ];
@@ -68,10 +68,12 @@ const skills = [
 
 const contactDetails = {
   email: 'icramdoku@gmail.com',
-  linkedin: 'https://www.linkedin.com/in/icramdoku/'
+  linkedin: 'https://www.linkedin.com/in/icramdoku'
 };
 
 const githubLink = 'https://github.com/IcramDoku';
 
-export { projects, skills, contactDetails, githubLink };
+const devpostLink = 'https://devpost.com/IcramDoku?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav';
+
+export { projects, skills, contactDetails, githubLink, devpostLink };
   

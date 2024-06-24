@@ -14,7 +14,7 @@ const Contact = () => {
               style={styles.logo}
             />
             <br />
-            <span style={styles.contactText}>Connect on LinkedIn</span>
+            <span style={styles.contactText}>{contactDetails.linkedin}</span>
           </a>
         </div>
         <div style={styles.contactItem}>

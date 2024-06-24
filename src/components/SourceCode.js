@@ -1,23 +1,42 @@
 import React from 'react';
-import { githubLink } from '../data';
+import { githubLink, devpostLink } from '../data';
 
 const SourceCode = () => {
-    return (
+  return (
     <section id="source-code-section" style={styles.section}>
       <h2 style={styles.heading}>Source Code</h2>
-      <p style={styles.paragraph}>
-        Explore all my projects on GitHub:
-        <br />
-        <a href={githubLink} target="_blank" rel="noopener noreferrer" style={styles.link}>
-          <img
-            src={require(`../Portfolio/GitHub-logo.png`)}
-            alt="GitHub Logo"
-            style={styles.logo}
-          />
-          <br />
-          {githubLink}
-        </a>
-      </p>
+      <div style={styles.sourceContainer}>
+        <div style={styles.sourceItem}>
+          <p style={styles.paragraph}>
+            Explore all my projects on GitHub:
+            <br />
+            <a href={githubLink} target="_blank" rel="noopener noreferrer" style={styles.link}>
+              <img
+                src={require('../Portfolio/GitHub-logo.png')}
+                alt="GitHub Logo"
+                style={styles.logo}
+              />
+              <br />
+              {githubLink}
+            </a>
+          </p>
+        </div>
+        <div style={styles.sourceItem}>
+          <p style={styles.paragraph}>
+            Explore my DEVPOST Profile:
+            <br />
+            <a href={devpostLink} target="_blank" rel="noopener noreferrer" style={styles.link}>
+              <img
+                src={require('../Portfolio/devpost_logo_icon_169280.webp')}
+                alt="Devpost Logo"
+                style={styles.logo}
+              />
+              <br />
+              https://devpost.com/IcramDoku
+            </a>
+          </p>
+        </div>
+      </div>
     </section>
   );
 };
@@ -34,6 +53,14 @@ const styles = {
     fontSize: '2.5rem',
     fontWeight: 'bold',
     marginBottom: '20px',
+  },
+  sourceContainer: {
+    display: 'flex',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+  },
+  sourceItem: {
+    textAlign: 'center',
   },
   paragraph: {
     fontSize: '1.2rem',
