@@ -52,14 +52,16 @@ const styles = {
   heading: {
     fontSize: '2.5rem',
     fontWeight: 'bold',
-    marginBottom: '20px',
+    marginBottom: '40px',
   },
   sourceContainer: {
     display: 'flex',
-    justifyContent: 'space-around',
-    alignItems: 'center',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
   },
   sourceItem: {
+    width: '300px',
+    margin: '20px',
     textAlign: 'center',
   },
   paragraph: {

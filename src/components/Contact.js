@@ -42,7 +42,7 @@ const styles = {
   contactContainer: {
     display: 'flex',
     justifyContent: 'space-around',
-    alignItems: 'center',
+    flexWrap: 'wrap',
   },
   contactItem: {
     textAlign: 'center',
