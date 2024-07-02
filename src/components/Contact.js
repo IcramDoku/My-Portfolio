@@ -9,7 +9,7 @@ const Contact = () => {
         <div style={styles.contactItem}>
           <a href={contactDetails.linkedin} target="_blank" rel="noopener noreferrer" style={styles.link}>
             <img
-              src={require(`../Portfolio/LinkedIn-logo.png`)}
+              src={require(`../Portfolio-images/LinkedIn-logo.png`)}
               alt="LinkedIn Logo"
               style={styles.logo}
             />

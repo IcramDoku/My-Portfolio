@@ -14,7 +14,7 @@ const Projects = () => {
               <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <div style={styles.imageContainer}>
                   <img
-                    src={require(`../Portfolio/${project.image}`)}
+                    src={require(`../Portfolio-images/${project.image}`)}
                     alt="logo"
                     style={styles.image}
                   />

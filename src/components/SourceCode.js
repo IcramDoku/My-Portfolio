@@ -12,7 +12,7 @@ const SourceCode = () => {
             <br />
             <a href={githubLink} target="_blank" rel="noopener noreferrer" style={styles.link}>
               <img
-                src={require('../Portfolio/GitHub-logo.png')}
+                src={require('../Portfolio-images/GitHub-logo.png')}
                 alt="GitHub Logo"
                 style={styles.logo}
               />
@@ -27,7 +27,7 @@ const SourceCode = () => {
             <br />
             <a href={devpostLink} target="_blank" rel="noopener noreferrer" style={styles.link}>
               <img
-                src={require('../Portfolio/devpost_logo_icon_169280.webp')}
+                src={require('../Portfolio-images/devpost_logo_icon_169280.webp')}
                 alt="Devpost Logo"
                 style={styles.logo}
               />

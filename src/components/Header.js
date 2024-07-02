@@ -6,7 +6,7 @@ const Header = () => {
       <div style={styles.content}>
         <h1 style={styles.name}>Icram Doku</h1>
         <img
-          src={require(`../Portfolio/Icram_Doku.jpg`)}
+          src={require(`../Portfolio-images/Icram_Doku.jpg`)}
           alt="logo"
           style={styles.logo}
         />
