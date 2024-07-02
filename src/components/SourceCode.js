@@ -57,7 +57,7 @@ const styles = {
   sourceContainer: {
     display: 'flex',
     flexWrap: 'wrap',
-    justifyContent: 'center',
+    justifyContent: 'space-around',
   },
   sourceItem: {
     width: '300px',
